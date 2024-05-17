@@ -43,7 +43,7 @@ resource "aws_lb_listener" "main" {
   port = var.port
   protocol = "HTTP"
   default_action {
-    type = "fixed_response"
+    type = "fixed-response"
     fixed_response {
       content_type = "text/plain"
       message_body = "fixed response content"
