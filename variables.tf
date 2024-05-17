@@ -6,3 +6,6 @@ variable "vpc_id" {}
 variable "sg_subnet_cidr" {}
 variable "subnets" {}
 variable "tags" {}
+variable "port" {
+  default = 80
+}
